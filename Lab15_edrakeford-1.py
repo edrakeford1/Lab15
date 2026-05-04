@@ -36,4 +36,9 @@ while theta <= 2 * math.pi:
 # Plot
 plt.plot(x_values, y_values)
 
+# Add title and labels
+plt.title("Rose Curve")
+plt.xlabel("X Axis")
+plt.ylabel("Y Axis")
+
 plt.show()
