@@ -11,3 +11,29 @@ Starter Code: None
 Date: May 3, 2026
 """
 
+import matplotlib.pyplot as plt
+import math
+
+# list for x and y
+x_values = []
+y_values = []
+
+# For rose curve
+n = 5
+
+# making function
+theta = 0
+while theta <= 2 * math.pi:
+    r = math.cos(n * theta)
+    x = r * math.cos(theta)
+    y = r * math.sin(theta)
+
+    x_values.append(x)
+    y_values.append(y)
+
+    theta += 0.01
+
+# Plot
+plt.plot(x_values, y_values)
+
+plt.show()
