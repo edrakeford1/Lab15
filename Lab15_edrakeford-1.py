@@ -44,4 +44,5 @@ plt.ylabel("Y Axis")
 # Save plot
 plt.savefig("rose_curve.png")
 
+# show plot
 plt.show()
